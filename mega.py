@@ -36,13 +36,7 @@ try:
     url1 = f.read()
     f.close
 except:
-    wr = str(input("Paste Your URL here :- "))
-    f = open("url.txt", "w")
-    f.write(wr)
-    f.close
-    f = open("url.txt", "r")
-    url1 = f.read()
-    f.close
+    wr = 
 
 try:
     import requests
