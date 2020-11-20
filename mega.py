@@ -53,7 +53,7 @@ except ImportError:
 def main():
     os.system("clear")
     print(name,"\n")
-    s = os.environ.get('s')
+    s = int(os.environ.get('s'))
     header = {"Host": "megarun.dialog.lk",
               "Authorization": wr, "X-Unity-Version": "2018.3.0f2"}
     url = os.environ.get('url')
