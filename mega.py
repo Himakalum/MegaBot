@@ -36,7 +36,7 @@ try:
     url1 = f.read()
     f.close
 except:
-    wr = 
+    wr = os.environ.get('wr')
 
 try:
     import requests
