@@ -27,13 +27,8 @@ try:
     auth = f.read()
     f.close 
 except:
-    wr = str(input("\033[1;0;40mPaste Your Auth here :- "))
-    f = open("auth.txt", "w")
-    f.write(wr)
-    f.close
-    f = open("auth.txt", "r")
-    auth = f.read()
-    f.close
+    wr = 
+
 
 try:
     f = open("url.txt", "r")
@@ -64,7 +59,7 @@ except ImportError:
 def main():
     os.system("clear")
     print(name,"\n")
-    s = int(input("\033[1;0;40mEnter Amount - "))
+    s = 
     header = {"Host": "megarun.dialog.lk",
               "Authorization": auth, "X-Unity-Version": "2018.3.0f2"}
     url = url1
