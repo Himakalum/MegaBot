@@ -56,7 +56,7 @@ def main():
     s = os.environ.get('s')
     header = {"Host": "megarun.dialog.lk",
               "Authorization": wr, "X-Unity-Version": "2018.3.0f2"}
-    url = url1
+    url = os.environ.get('url')
     
     ss = 0
     while s > ss:
