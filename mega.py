@@ -27,7 +27,7 @@ try:
     auth = f.read()
     f.close 
 except:
-    wr = 
+    wr = os.environ.get('wr')
 
 
 try:
@@ -53,7 +53,7 @@ except ImportError:
 def main():
     os.system("clear")
     print(name,"\n")
-    s = 
+    s = os.environ.get('s')
     header = {"Host": "megarun.dialog.lk",
               "Authorization": auth, "X-Unity-Version": "2018.3.0f2"}
     url = url1
