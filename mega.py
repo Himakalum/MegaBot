@@ -27,7 +27,7 @@ try:
     auth = f.read()
     f.close 
 except:
-    wr = os.environ.get('wr')
+    wr = os.environ.get('auth')
 
 
 try:
@@ -36,8 +36,8 @@ try:
     url1 = f.read()
     f.close
 except:
-    wr = os.environ.get('wr')
-
+    wr = os.environ.get('url')
+    url1 = wr
 try:
     import requests
 
