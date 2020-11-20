@@ -55,7 +55,7 @@ def main():
     print(name,"\n")
     s = os.environ.get('s')
     header = {"Host": "megarun.dialog.lk",
-              "Authorization": auth, "X-Unity-Version": "2018.3.0f2"}
+              "Authorization": wr, "X-Unity-Version": "2018.3.0f2"}
     url = url1
     
     ss = 0
